@@ -1,47 +1,20 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Proyecto Web</title>
-</head>
-<body>
-    <!-- Menú de navegación -->
-    <nav>
-        <a href="#inicio">Inicio</a> |
-        <a href="#sobre-mi">Sobre mí</a> |
-        <a href="#contacto">Contacto</a>
-    </nav>
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+        <label for="nombre">Nombre</label><br>
+        <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required><br><br>
 
-    <!-- Inicio -->
-    <section id="inicio">
-        <h1>Bienvenido/a a mi sitio web</h1>
-        <p>Este es un proyecto para aprender Git y GitHub.</p>
-    </section>
+        <label for="email">Email</label><br>
+        <input id="email" name="email" type="email" placeholder="tu@correo.com" required><br><br>
 
-    <!-- Sobre mí -->
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>Aquí puedes escribir una breve descripción.</p>
-    </section>
+        <label for="mensaje">Mensaje</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..."></textarea><br><br>
 
-    <!-- Contacto -->
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form>
-            <label for="nombre">Nombre</label><br>
-            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required><br><br>
-
-            <label for="email">Email</label><br>
-            <input id="email" name="email" type="email" placeholder="tu@correo.com" required><br><br>
-
-            <label for="mensaje">Mensaje</label><br>
-            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..."></textarea><br><br>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
 </body>
 </html>
+
 
 
